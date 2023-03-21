@@ -1,0 +1,158 @@
+
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: none;
+  border-radius: 0.4rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+header nav .menu ul li a:hover {
+  color: #7f7f7f88;
+  transition: 0.3s;
+  border-bottom: 0.5px solid black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+nav #toggle,
+nav label {
+  display: none;
+}
+
+
+.App-logo {
+  width: 20%;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+
+
+
+
+.logoTrino {
+  /* animation: App-logo-spin infinite 20s linear;*/
+  height: 25vmin;
+}
+
+.logoLetras {
+  height: 25vmin;
+  top: 0px;
+  left: 0px;
+}
+
+header {
+  width: 100%;
+  max-width: 1000px;
+  min-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divlogo {
+  width: 100%;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/******************TABLET********************/
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .divlogo {
+    width: 20%;
+  }
+
+  .principal {
+    display: flex;
+    flex-direction: row nowrap;
+    /* justify-content: space-between; */
+  }
+
+
+}
+
+/******************MOVIL********************/
+
+
+@media (max-width: 600px) {     
+
+  header{
+    min-width: 500px;
+  }
+
+  .principal {
+    width: 100vh;
+  }
+
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    /* background-color: red; */
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+
+  nav a {
+    width: 100%;
+  }
+
+  nav label {
+    display: inline-flex;
+    color: rgba(98, 98, 98, 0.526);
+    cursor: pointer;
+    font-size: 15vmin;
+  }
+
+  nav label i:hover {
+    color: #171717af;
+    transition: 0.3s;
+    border-bottom: 1px solid black;
+  }
+
+  nav #toggle:checked~.menu {
+    height: 100%;
+  }
+  
+}

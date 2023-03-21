@@ -1,0 +1,81 @@
+/* @media screen and (min-width: 0px){  
+  .App {
+    text-align: center;
+  }
+
+  
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  } */
+
+  /* .App-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+ */
+
+/* 
+  
+
+
+
+  .App-Header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.navppal {
+    font-weight: bold;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    border-radius: 20px;
+    height: 20vmin;
+}
+
+.navppal a {
+    text-decoration: none;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.navppal a:hover {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: 0.5s;
+    color: white;
+    
+} */
+
+
+  /* main {
+    height: 200px;
+  }
+
+} */
+
+
+@media screen and (min-width: 0px){
+main{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+}

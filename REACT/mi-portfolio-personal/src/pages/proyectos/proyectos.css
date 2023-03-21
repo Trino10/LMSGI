@@ -1,0 +1,66 @@
+h2 {
+    color: rgba(255, 255, 255, 0.608);
+    border-bottom: 2px solid gray;
+    padding: 5px;
+    text-align: center;
+}
+
+section.proyects {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+    padding: 10px;
+}
+
+section article {
+    display: flex;
+    flex-direction: column;
+    background: #606c88;
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+    background: linear-gradient(to right, #3f4c6b, #606c88);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+}
+
+section.proyects article {
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(100px);
+}
+
+section.proyects article figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    max-width: 300px;
+    padding-top: 30px;
+}
+
+section.proyects article figure img {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    max-width: 300px;
+    min-width: 250px;
+    filter: grayscale(1);
+    transition: .4s;
+}
+
+section.proyects article figure img:hover {
+    filter: none;
+}
+
+section.proyects article h3 {
+    background-color: rgba(129, 129, 129, 0.386);
+    border-radius: 20px;
+    padding: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}

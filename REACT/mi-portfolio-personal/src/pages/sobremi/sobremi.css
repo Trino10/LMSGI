@@ -1,0 +1,97 @@
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+/*MOVIL*/
+@media screen and (min-width: 0px){
+    section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    section h2 {
+        color:rgba(229, 229, 229, 0.445);
+        width: 100%;
+        border-bottom: none;
+    }
+
+    p {
+        color: white;
+        padding: 10px;
+    }
+
+
+    .habilidades {
+        width: 100%;
+        text-align: center;
+        color: rgba(255, 0, 0, 0.345);
+    }
+
+    section article.skills {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 500px;
+        min-width: 300px;
+        background-color: rgba(107, 107, 107, 0.267);
+        border-radius: 20px;
+        box-shadow: 2px 3px 5px 3px;
+        width: 80%;
+        height: 200px;
+    }
+
+    section article.skills span {
+        font-weight: bold;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+
+    .skills img{
+        height: 13vmin;
+        width: 20%;
+        padding: 5px;
+        max-width: 80px;
+    }
+
+    .skills span {
+        color: white;
+    }
+
+
+    .skills .logoreact {
+        animation: App-logo-spin infinite 20s linear;
+    }
+
+
+    .aficiones {
+        width: 100%;
+        text-align: center;
+        color: rgba(255, 0, 0, 0.345);
+    }
+
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 600px){
+    section article{
+        width: 45%;
+    }
+
+    .skills img {
+        height: 10vmin;
+    }
+}
