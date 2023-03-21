@@ -1,4 +1,4 @@
-nav {
+nav.navppal {
     height: 60px;
     display: flex;
     flex-flow: row nowrap;
@@ -7,15 +7,13 @@ nav {
     width: 80%;
 }
 
-nav a {
+ nav.navppal a {
     text-decoration: none;
     font-size: 25px;
     color: white;
-    background-color: rgba(6, 69, 69, 0.558);
-    border-radius: 50px;
     padding: 5px;
 }
-
-nav a:hover {
+/*
+nav.navppal a:hover {
     border-bottom: 2px solid white;
-}
+} */

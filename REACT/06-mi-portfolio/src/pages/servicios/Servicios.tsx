@@ -1,13 +1,19 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import { NavBar } from './NavBar'
+import './servicios.css'
 
 export const ServiciosPage = () => {
   return (
     <>
-        <h2>Sección Servicios</h2>
-        <hr/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius ipsa similique quidem necessitatibus amet corporis sint quos iusto, deserunt minima illo cumque consequuntur omnis, assumenda quae doloribus, tempore quas?</p>
-        <Outlet/>
+        <section className='home'>
+          <h2>Sección Servicios</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius ipsa similique quidem necessitatibus amet corporis sint quos iusto, deserunt minima illo cumque consequuntur omnis, assumenda quae doloribus, tempore quas?</p>
+        </section>
+        <NavBar />
+        <section className='body'>
+          <Outlet />
+        </section>
     </>
   )
 }

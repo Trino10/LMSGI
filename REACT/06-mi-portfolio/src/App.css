@@ -1,9 +1,67 @@
 header {
-  height: 150px;
-  background-color: gray;
+  height: 120px;
+  background-color: rgb(0, 0, 0);
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 
 }
+
+main{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main section.home {
+  width: 100%;
+}
+
+main nav.submenu{
+  background-color: rgba(6, 139, 255, 0.047);
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+main nav.submenu a {
+  font-size: 22px;
+  width: 90%;
+  padding: 20px;
+}
+
+main section.body {
+  width: 60%;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-end; */
+  background-color: rgb(31, 8, 136);
+}
+
+.pcs {
+  width: 100%;
+}
+
+.equipos{
+  background-color: aqua;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.equipos .equipo {
+  border: 2px solid black;
+  min-height: 10px;
+  border-radius: 20px;
+  width: 30%;
+  height: 100px;
+  margin: 10px;
+}
+
+.equipos h4 {
+  text-align: center;
+}
+
